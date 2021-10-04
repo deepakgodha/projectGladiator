@@ -1,0 +1,32 @@
+url=https://www.easemytrip.com/
+oneway=//li[@class='border-lft flig-show click-one bg-color']
+twoway=//li[@class='click-round flig-show']
+fromCity=//input[@id='FromSector_show']
+toCity=//input[@id='Editbox13_show']
+place1=delhi
+place2=mumbai
+date=trd_3_17/11/2021
+businessClass=//div[@id='myDropdown_n9']//label[@class='cont_flt'][normalize-space()='Business']//span[@class='chk_flt']
+search=input[onclick='SearchFlightWithArmy();']
+bookNow=//div[@class='col-md-12 col-sm-12 no-padd']//div//div[1]//div[1]//div[1]//div[6]//button[1]
+insurance=//label[normalize-space()='No, I do not want to insure my trip']
+emailid=kapeeddj12@gmail.com
+title0=Title
+title=MR
+fname=dinesh
+lname=kumar
+phnumber=7896547859
+traveller=a[class='dropbtn_n9'] span[class='drpNoTrv']
+addAdult=(//input[@value='+'])[1]
+addChild=(//input[@value='+'])[2]
+privilage=//label[normalize-space()='Senior Citizens']
+bookNow1=//div[13]//div[1]//div[1]//div[6]//button[1]
+bookNow2=//div[@id='BtnBookNow']
+title1=Mrs
+fname1=Rupali
+lname1=kumar
+title2=Master
+fname2=chirag
+lname2=kumar
+rdate=frth_0_21/11/2021
+invalidemail=kapeeddj12gmail.com

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="15" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-04T08:17:31 IST" name="Suite" finished-at="2021-10-04T08:24:02 IST" duration-ms="390844">
+    <groups>
+    </groups>
+    <test started-at="2021-10-04T08:17:31 IST" name="Chrome" finished-at="2021-10-04T08:24:02 IST" duration-ms="390844">
+      <class name="onewaytrip.Runner">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:onewaytrip.Runner@79efed2d]" started-at="2021-10-04T08:17:31 IST" name="beforeTest" finished-at="2021-10-04T08:17:44 IST" duration-ms="13606" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="testCase1()[pri:97, instance:onewaytrip.Runner@79efed2d]" started-at="2021-10-04T08:17:44 IST" name="testCase1" description="creating a one way trip" finished-at="2021-10-04T08:18:27 IST" duration-ms="42877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase2()[pri:98, instance:onewaytrip.Runner@79efed2d]" started-at="2021-10-04T08:18:27 IST" name="testCase2" description="source and destination same error" finished-at="2021-10-04T08:18:48 IST" duration-ms="20932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method signature="booking(java.lang.String,java.lang.String,java.lang.String)[pri:99, instance:onewaytrip.Runner@79efed2d]" started-at="2021-10-04T08:18:51 IST" name="booking" description="enter valid email id" data-provider="dp" finished-at="2021-10-04T08:19:16 IST" duration-ms="25585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kolkata]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bangalore]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kapeeddj12gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- booking -->
+        <test-method signature="testCase4()[pri:100, instance:onewaytrip.Runner@79efed2d]" started-at="2021-10-04T08:19:16 IST" name="testCase4" description="select the insurance" finished-at="2021-10-04T08:19:40 IST" duration-ms="23952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase4 -->
+        <test-method signature="testCase5()[pri:101, instance:onewaytrip.Runner@79efed2d]" started-at="2021-10-04T08:19:40 IST" name="testCase5" description="enter the title in passengers details" finished-at="2021-10-04T08:20:14 IST" duration-ms="34081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase5 -->
+        <test-method signature="testCase6()[pri:102, instance:onewaytrip.Runner@79efed2d]" started-at="2021-10-04T08:20:14 IST" name="testCase6" description="enter the first name in passengers details" finished-at="2021-10-04T08:20:48 IST" duration-ms="34046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase6 -->
+        <test-method signature="testCase7()[pri:103, instance:onewaytrip.Runner@79efed2d]" started-at="2021-10-04T08:20:48 IST" name="testCase7" description="enter the last name in passengers details" finished-at="2021-10-04T08:21:21 IST" duration-ms="32770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase7 -->
+        <test-method signature="testCase8()[pri:104, instance:onewaytrip.Runner@79efed2d]" started-at="2021-10-04T08:21:21 IST" name="testCase8" description="enter the phone number " finished-at="2021-10-04T08:21:49 IST" duration-ms="28094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase8 -->
+        <test-method signature="testCase11()[pri:105, instance:onewaytrip.Runner@79efed2d]" started-at="2021-10-04T08:21:49 IST" name="testCase11" description="Adding a coupon" finished-at="2021-10-04T08:22:16 IST" duration-ms="26936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase11 -->
+        <test-method signature="testCase15()[pri:106, instance:onewaytrip.Runner@79efed2d]" started-at="2021-10-04T08:22:16 IST" name="testCase15" description="invalid coupon" finished-at="2021-10-04T08:22:49 IST" duration-ms="33220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase15 -->
+        <test-method signature="testCase14()[pri:107, instance:onewaytrip.Runner@79efed2d]" started-at="2021-10-04T08:22:49 IST" name="testCase14" description="selecting number of stops" finished-at="2021-10-04T08:23:10 IST" duration-ms="20675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase14 -->
+        <test-method signature="testCase12()[pri:108, instance:onewaytrip.Runner@79efed2d]" started-at="2021-10-04T08:23:10 IST" name="testCase12" description="invalid From-location" finished-at="2021-10-04T08:23:26 IST" duration-ms="16213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase12 -->
+        <test-method signature="testCase13()[pri:109, instance:onewaytrip.Runner@79efed2d]" started-at="2021-10-04T08:23:26 IST" name="testCase13" description="invalid To-location" finished-at="2021-10-04T08:23:41 IST" duration-ms="15008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase13 -->
+        <test-method signature="testCase10()[pri:110, instance:onewaytrip.Runner@79efed2d]" started-at="2021-10-04T08:23:41 IST" name="testCase10" description="adding privilage" finished-at="2021-10-04T08:23:58 IST" duration-ms="16474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase10 -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:onewaytrip.Runner@79efed2d]" started-at="2021-10-04T08:23:58 IST" name="afterTest" finished-at="2021-10-04T08:24:02 IST" duration-ms="3818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- onewaytrip.Runner -->
+    </test> <!-- Chrome -->
+  </suite> <!-- Suite -->
+</testng-results>
